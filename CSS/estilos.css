@@ -1,0 +1,277 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    background-color: hsla(270, 20%, 96%, 0.87);
+    height: 700px;
+}
+/*font-family: 'Rubik', sans-serif;*/
+
+/* ESTILOS FIGURA IZQUIERDA*/
+
+.main{
+    display: flex;
+}
+
+.draw-left{
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%)) ;
+    height: 1100px;
+    width: 450px;
+    /*border-bottom-right-radius: 250px;*/
+    border-bottom-right-radius: 300px 300px;
+    border-bottom-left-radius: 230px 90px;  
+}
+
+/*  */
+
+/* ESTILOS MOVIL*/
+
+.container-movil{
+    position: relative;
+    z-index: 1;
+    top: 490px;
+    right: 60px;
+    width: 250px;
+    height: 550px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 4px hsl(206, 6%, 79%) ;
+}
+
+.movil--header{
+    display: flex;
+    align-items: flex-end;
+    height: 80px;
+    background-image: linear-gradient(45deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.movil__header--img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 100%);
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.movil--div{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.movil__header--name{
+    font-family: 'Rubik', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.movil__header--status{
+    font-family: 'Rubik', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 8px;
+    
+}
+
+/* ESTILOS CUERPO MOVIL*/
+
+.movil--body{
+    background-color: hsl(270, 20%, 96%);
+    height: 470px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box--message1{
+    width: 150px;
+    height: 40px;
+    background-color: hsl(276, 100%, 81%);
+    font-family: 'Rubik', sans-serif; 
+    font-size: 8px;
+    color: hsl(271, 36%, 24%); 
+    border-radius: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 15px;
+}
+
+.box--1{
+    font-family: 'Rubik', sans-serif; 
+    box-sizing: border-box;
+    padding: 5px 0px 0px 10px; 
+}
+
+.movil--image{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.movil__image--dog{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;  
+}
+
+.box--container{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+.box--message2{
+    width: 150px;
+    height: 50px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Rubik', sans-serif; 
+    font-size: 8px;
+    color: hsl(271, 36%, 24%); 
+    border-radius: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 15px;
+}
+
+.box--message3{
+    width: 75px;
+    height: 25px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Rubik', sans-serif; 
+    font-size: 8px;
+    color: hsl(271, 36%, 24%); 
+    border-radius: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+    left: 75px;
+    margin-bottom: 15px;
+    justify-content: flex-end;
+}
+
+.box--color{
+    display: flex;
+    background-image: linear-gradient(45deg, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px 0px 0px 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box__color--msg{
+    font-family: 'Rubik', sans-serif; 
+    color:  hsl(0, 0%, 100%);
+    font-size: 8px;
+    font-weight: 100;
+}
+
+.box__color--value{
+    font-family: 'Rubik', sans-serif; 
+    color:  hsl(0, 0%, 100%);
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.box--writting{
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    width: 230px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+}
+
+.box--writting::placeholder{
+    font-size: 10px;
+    color: hsl(206, 6%, 79%);
+    text-align: left;
+    padding-left: 30px;
+}
+
+.mic{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 200px;
+    bottom: 28px;
+}
+
+/*
+------------------------------
+*/
+
+.aside{
+    position: relative;
+    top: 720px;
+    width: 400px;
+    margin-left: 150px;
+}
+
+.aside--title{
+    font-family: 'Rubik', sans-serif; 
+    color: hsl(271, 36%, 24%);
+    font-size: 40px;
+}
+
+.aside--subtitle{
+    font-family: 'Rubik', sans-serif; 
+    margin-top: 20px;
+    color:  hsl(270, 7%, 64%);
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.draw-right{
+    position: relative;
+    top: 600px;
+    height: 700px;
+    width: 450px;
+    border-top-left-radius: 300px 300px;
+    border-top-right-radius: 230px 90px; 
+    background-image: linear-gradient(45deg, hsl(289, 57%, 83%), hsl(288, 45%, 89%));
+    border-top: 0px transparent solid;
+}
+
+
+
+
+/*
+
+- White: hsl(0, 0%, 100%)
+- Light Grayish Violet (app background): 
+- Very Dark Desaturated Violet (submit button background): hsl(271, 36%, 24%)
+- Very Light Magenta (radio button outline): hsl(289, 100%, 72%)
+Pale Violet (sub-heading at the top of the app UI): hsl(276, 100%, 81%)
+- Moderate Violet (chat on the left): hsl(276, 55%, 52%)
+
+- Desaturated Dark Violet (chat on the right): hsl(271, 15%, 43%)
+- Grayish Blue (placeholder text): hsl(206, 6%, 79%)
+- Very Dark Desaturated Violet (main heading): hsl(271, 36%, 24%)
+- Dark Grayish Violet (paragraph): hsl(270, 7%, 64%)
+
+ Light Magenta: hsl(293, 100%, 63%)
+- Light Violet: hsl(264, 100%, 61%)
+
+- Pale Violet (sub-heading at the top of the app UI): hsl(276, 100%, 81%)
+- Moderate Violet (chat on the left): hsl(276, 55%, 52%)
+- Desaturated Dark Violet (chat on the right): hsl(271, 15%, 43%)
+- Grayish Blue (placeholder text): hsl(206, 6%, 79%)
+- Very Dark Desaturated Violet (main heading): hsl(271, 36%, 24%)
+- Dark Grayish Violet (paragraph): hsl(270, 7%, 64%)
